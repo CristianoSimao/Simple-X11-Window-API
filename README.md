@@ -22,6 +22,8 @@ functions to create windows in C programing language and some example codes.</pr
    - <b>Sx11End()</b>                   Close the window and delete all resources.<br> 
    </pre>
 
+  Here you can see the details for all functions: <a href="https://github.com/CristianoSimao/Simple-X11-Window-API/blob/main/Simple%20X11%20Window%20API.pdf">Simple X11 Window API - PDF</a>
+
   Read the SimpleX11API.h file to discover how the things work.<br>
   Below is some links used as reference to create this project.<br>
   
