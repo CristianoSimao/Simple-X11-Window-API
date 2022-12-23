@@ -4,9 +4,9 @@ int main(){
     
     Sx11Init();
     //Sx11SetScreenResolution("800x600");
-    printf("Width of screen: %i \n",Sx11DefaultMonitor.width);
-    printf("Height of screen: %i \n",Sx11DefaultMonitor.height);
-    printf("Bitdepth of screen: %i \n",Sx11DefaultMonitor.bitdepth);
+    //printf("Width of screen: %i \n",Sx11DefaultMonitor.width);
+    //printf("Height of screen: %i \n",Sx11DefaultMonitor.height);
+    //printf("Bitdepth of screen: %i \n",Sx11DefaultMonitor.bitdepth);
 
     //The color in the Simple X11 API are in RGB hex format
     //Example: 0xff0000 is red
