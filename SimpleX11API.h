@@ -52,7 +52,7 @@ void sendFullscreenEvent(Display* display, Window win){
 	}
 }
 
-int Sx11SetScreenResolution(char resolution[9]){
+int Sx11SetScreenResolution(char resolution[]){
     //This function uses a shell program "xrandr" to change the screen resolution
     //return 0 if is ok or 1 if have error.
     //Typical values "640x480", "800x600", "1280x720","1920x1080"
