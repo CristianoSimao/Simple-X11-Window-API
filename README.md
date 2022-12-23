@@ -32,4 +32,12 @@ functions to create windows in C programing language and some example codes.</pr
   
   ![Simple X11 Window test](example01.jpg?raw=true "Simple X11 Window API test")
   
+  <br>
   
+  # References:
+  If you want learn how X Window System works, you can see this video showing all steps <br>and all little details of each function: https://youtu.be/764fnfEb1_c
+    <br>
+    The official X Window API here: http://www.x.org/releases/X11R7.7/doc/libX11/libX11/libX11.pdf
+    <br>
+    Other documentations: https://www.x.org/releases/X11R7.7/doc/index.html
+    <br>
