@@ -19,18 +19,23 @@ functions to create windows in C programing language and some example codes.</pr
    - <b>Sx11DrawLine()</b>              Draw a line in the window.<br>
    - <b>Sx11DrawPixel()</b>             Draw a pixel in the window.<br>
    - <b>Sx11GetEvents()</b>             Capture keyboard and mouse events.<br>
+   - <b>Sx11ClearButtons()</b>          Clear all keyboard and mouse global variables.
    - <b>Sx11End()</b>                   Close the window and delete all resources.<br> 
+   - <b>Sx11Flush()</b>                 Refresh the screen.
    </pre>
 
   Here you can see the details for all functions: <a href="https://github.com/CristianoSimao/Simple-X11-Window-API/blob/main/Simple%20X11%20Window%20API.pdf">Simple X11 Window API - PDF</a>
 
-  Read the SimpleX11API.h file to discover how the things work.<br>
+  Read the SimpleX11API.c file to discover how the things work.<br>
   Below is some links used as reference to create this project.<br>
   
-  You need the **libx11-dev** installed in your system to compile.<br>
-  Compile the example01.c with the command: **gcc example01.c -lX11 example01**<br>
+  You need the **libx11-dev** and **libxrandr-dev** installed in your system to compile.<br>
+  To install the libs execute **sudo apt install libx11-dev libxrandr-dev**<br>
+  <br>
+  Compile the example.c with the command: **gcc *c -lX11 -lXrandr -o example**<br>
+  Execute the program with **./example** to see the messages of buttons pressed.<br>
   
-  Example01.c will produce the window below:<br>
+  Example.c will produce the window below:<br>
   
   ![Simple X11 Window test](example01.jpg?raw=true "Simple X11 Window API test")
   
