@@ -1,4 +1,5 @@
 # Simple-X11-Window-API
+version 0.2 (03/31/2025)<br>
 A simple X11 API to create basic windows in Linux.<br>
 <pre>    X Window System (X11) is the default API to create windows in Linux. This is a very old API
 projected to work trought internet. Because of this old style of programming compared to
