@@ -32,7 +32,7 @@ functions to create windows in C programing language and some example codes.</pr
   You need the **libx11-dev** and **libxrandr-dev** installed in your system to compile.<br>
   To install the libs execute **sudo apt install libx11-dev libxrandr-dev**<br>
   <br>
-  Compile the example.c with the command: **gcc *c -lX11 -lXrandr -o example**<br>
+  Compile the example.c with the command: **gcc \*c -lX11 -lXrandr -o example**<br>
   Execute the program with **./example** to see the messages of buttons pressed.<br>
   
   Example.c will produce the window below:<br>
