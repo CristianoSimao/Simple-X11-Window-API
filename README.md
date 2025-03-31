@@ -19,7 +19,7 @@ functions to create windows in C programing language and some example codes.</pr
    - <b>Sx11DrawLine()</b>              Draw a line in the window.<br>
    - <b>Sx11DrawPixel()</b>             Draw a pixel in the window.<br>
    - <b>Sx11GetEvents()</b>             Capture keyboard and mouse events.<br>
-   - <b>Sx11ClearButtons()</b>          Clear all keyboard and mouse global variables.
+   - <b>Sx11ClearButtons()</b>          Clear all keyboard and mouse global variables.<br>
    - <b>Sx11End()</b>                   Close the window and delete all resources.<br> 
    - <b>Sx11Flush()</b>                 Refresh the screen.
    </pre>
